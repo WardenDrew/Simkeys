@@ -1,9 +1,15 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net6.0-windows</TargetFramework>
-    <UseWPF>true</UseWPF>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net6.0-windows</TargetFramework>
+		<UseWPF>true</UseWPF>
+		<Nullable>enable</Nullable>
+
+		<PackageId>Simkeys</PackageId>
+		<Version>1.0.0</Version>
+		<Authors>WardenDrew</Authors>
+		<PackageDescription>SendInput wrapper for keyboard macros</PackageDescription>
+		<RepositoryUrl>https://github.com/wardendrew/simkeys</RepositoryUrl>
+	</PropertyGroup>
 
 </Project>
